@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 7e32b48d1d4c9d54db8d7fbbf69cad5d
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Medabots
+  fontNames:
+  - Medabots
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 50f09805b46152b4780982ca422834b3, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

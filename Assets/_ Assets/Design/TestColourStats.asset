@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 66e301227b0fa9342b02c2849e5d8345, type: 3}
+  m_Name: TestColourStats
+  m_EditorClassIdentifier: 
+  minChangeTime: 8
+  maxChangeTime: 12
+  colourChangeSpeed: 0.7
+  skyboxColours:
+  - topColour: {r: 0.9632353, g: 0.29746974, b: 0.29746974, a: 0}
+    horizonColour: {r: 0, g: 0, b: 0, a: 0}
+    bottomColour: {r: 0.5955882, g: 0, b: 0, a: 0}
+  - topColour: {r: 0.13235295, g: 0.13235295, b: 0.13235295, a: 0}
+    horizonColour: {r: 0, g: 0, b: 0, a: 0}
+    bottomColour: {r: 0.04411763, g: 0.04411763, b: 0.04411763, a: 0}
+  - topColour: {r: 0.30687717, g: 0.42131013, b: 0.9705882, a: 0}
+    horizonColour: {r: 0, g: 0, b: 0, a: 0}
+    bottomColour: {r: 0, g: 0.13047664, b: 0.6102941, a: 0}
+  - topColour: {r: 0.5490752, g: 0.30201122, b: 0.97794116, a: 0}
+    horizonColour: {r: 0, g: 0, b: 0, a: 0}
+    bottomColour: {r: 0.58356994, g: 0, b: 0.61764705, a: 0}
+  - topColour: {r: 0.32352942, g: 1, b: 0.8600406, a: 0}
+    horizonColour: {r: 0, g: 0, b: 0, a: 0}
+    bottomColour: {r: 0, g: 0.60294116, b: 0.47747365, a: 0}
+  boostColourChangeSpeed: 5
+  boostHorizonColour: {r: 0, g: 0, b: 0, a: 0}
+  defaultNormalTrack: {r: 0, g: 0.3529412, b: 0.7647059, a: 0.42352942}
+  defaultDriftTrack: {r: 0, g: 1, b: 1, a: 0.5529412}
+  defaultDriftGlowTrack: {r: 0, g: 1, b: 1, a: 1}
+  recordNormalTrack: {r: 1, g: 0.26896548, b: 0, a: 0.428}
+  recordDriftTrack: {r: 1, g: 0.816, b: 0, a: 0.5529412}
+  recordDriftGlowTrack: {r: 1, g: 0.9001863, b: 0.08088237, a: 1}

@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1de68763b6669094a9f384609a87d2e6, type: 3}
+  m_Name: JamieTrackStats
+  m_EditorClassIdentifier: 
+  minimumNormalLength: 80
+  maximumNormalLength: 170
+  chanceForDriftTrack: 18
+  minimumDriftRadius: 15
+  maximumDriftRadius: 25
+  minimumDriftAngle: 50
+  maximumDriftAngle: 90
+  maxNumberOfNormalTracksUntilDrift: 5
+  chanceForBarrier: 90
+  maxNumberOfBarriersUntilDrift: 1
+  UFPlayerSpeedAboveThreshold: 61
+  UFPlayerSpeedBelowThreshold: 60
+  UFSpeedForward: 40
+  UFAcceleration: 50
+  UFSpeedBackward: 10
+  UFDeceleration: 1
+  UFMaxDistanceAway: 35
+  UFMinDistanceAway: 5
+  chanceForAdBarrier: 0
+  trackWidth: 3
+  slope: 0
+  minimumAngleBeforeBarrier: 60
+  minimumRadiusBeforeBarrier: 30
+  minimumDistanceBetweenBarriers: 50
+  paceRampUpTime: 500
+  startChanceForDriftTrack: 40
+  startMinimumNormalLength: 110
+  startMaximumNormalLength: 200
+  startMinimumDriftRadius: 45
+  startMaximumDriftRadius: 60
+  startMinimumDriftAngle: 50
+  startMaximumDriftAngle: 90
+  startMaxNumberOfNormalTracksUntilDrift: 10
+  startChanceForBarrier: 10
+  startMaxNumberOfBarriersUntilDrift: 1
+  startUFSpeedForward: 2

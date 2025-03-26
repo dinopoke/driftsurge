@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aaaeee8b641a0084e80cb140c4ceceb5, type: 3}
+  m_Name: TEST_GeorgePlayerStats
+  m_EditorClassIdentifier: 
+  accelerateNormally: 1
+  normalMaxSpeed: 60
+  normalAcceleration: 0.4
+  normalDecceleration: 0.7
+  boostMaxSpeed: 100
+  boostAcceleration: 50
+  MAX_BOOST_METER: 100
+  driftMinSpeed: 5
+  driftDecceleration: 12
+  driftDeccelerationOnDriftTrack: 0
+  driftSweetSpotSize: 1
+  startingBoost: 100
+  boostUseSpeed: 120
+  boostUseCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  boostFillSpeed: 160
+  accelerateWhenNoBoost: 0
+  noBoostMaxSpeed: 61
+  noBoostAcceleration: 1
+  boostLeewayTime: 10
+  boostReleaseDelayTime: 0.2
+  boostMeterOverflowAmount: 5
+  MAX_HEAT: 100
+  UseOverheatMechanic: 1
+  heatUpSpeedThreshold: 61
+  heatRate: 300
+  coolRate: 150
+  deathOnOverHeat: 0
+  speedToStartMultiplier: 61
+  timeUntilMutliplierIncrease: 0.5
+  distanceToEndMultiplier: 60
+  timeUntilMutliplierBreak: 2
+  SCORE_RATE: 0.04
+  SCORE_SCALE: 10

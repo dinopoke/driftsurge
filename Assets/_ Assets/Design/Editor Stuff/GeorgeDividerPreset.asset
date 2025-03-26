@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ad77a21276d6e840aa30a46a6c921fa, type: 3}
+  m_Name: GeorgeDividerPreset
+  m_EditorClassIdentifier: 
+  Dividers:
+  - Name: Mangers
+    ID: 0
+    PreSuffix: .
+    PreSuffixCount: 5
+    Label: '..... Mangers .....'
+    BoldFont: 1
+    ItalicFont: 0
+    ColoredFont: 1
+    ColoredBG: 1
+    HasOverrideColor_leftSprite: 0
+    HasOverrideColor_rightSprite: 0
+    FontColor: {r: 0, g: 0.7794118, b: 0.102129735, a: 1}
+    BGColor: {r: 1, g: 1, b: 1, a: 1}
+    OverrideColor_leftSprite: {r: 0, g: 0, b: 0, a: 0}
+    OverrideColor_rightSprite: {r: 0, g: 0, b: 0, a: 0}
+    HasSprite_left: 0
+    HasSprite_right: 0
+    LeftSprite: {fileID: 0}
+    RightSprite: {fileID: 0}
+    LeftScale: 1
+    RightScale: 1
+    foldOut: 1
+  - Name: Scene
+    ID: 0
+    PreSuffix: .
+    PreSuffixCount: 5
+    Label: '..... Scene .....'
+    BoldFont: 1
+    ItalicFont: 0
+    ColoredFont: 1
+    ColoredBG: 1
+    HasOverrideColor_leftSprite: 0
+    HasOverrideColor_rightSprite: 0
+    FontColor: {r: 0.19852942, g: 0.33671403, b: 1, a: 1}
+    BGColor: {r: 1, g: 1, b: 1, a: 1}
+    OverrideColor_leftSprite: {r: 0, g: 0, b: 0, a: 0}
+    OverrideColor_rightSprite: {r: 0, g: 0, b: 0, a: 0}
+    HasSprite_left: 0
+    HasSprite_right: 0
+    LeftSprite: {fileID: 0}
+    RightSprite: {fileID: 0}
+    LeftScale: 1
+    RightScale: 1
+    foldOut: 1
+  - Name: Random Crap
+    ID: 0
+    PreSuffix: .
+    PreSuffixCount: 5
+    Label: '..... Random Crap .....'
+    BoldFont: 1
+    ItalicFont: 0
+    ColoredFont: 1
+    ColoredBG: 1
+    HasOverrideColor_leftSprite: 0
+    HasOverrideColor_rightSprite: 0
+    FontColor: {r: 0.6838235, g: 0.4255519, b: 0.19106835, a: 1}
+    BGColor: {r: 1, g: 1, b: 1, a: 1}
+    OverrideColor_leftSprite: {r: 0, g: 0, b: 0, a: 0}
+    OverrideColor_rightSprite: {r: 0, g: 0, b: 0, a: 0}
+    HasSprite_left: 0
+    HasSprite_right: 0
+    LeftSprite: {fileID: 0}
+    RightSprite: {fileID: 0}
+    LeftScale: 1
+    RightScale: 1
+    foldOut: 1
